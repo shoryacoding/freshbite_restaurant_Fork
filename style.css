@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#name{
+  font-family: "arvo", sans-serif;
+  margin-top: 50px; 
+}
+#nav-links{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+#nav-links li a{
+ 
+  text-decoration: none;
+  color: palevioletred;
+  font-family: 'arvo',sans-serif;
+  font-size: 16;
+  padding: 12px 25px;
+} 
+#nav-links a:hover{
+  background-color:palevioletred;
+  color: white;
+}
+
+#nav-links li{
+  margin: 20px 5px 0 5px;
+   border: 2px solid palevioletred;
+   box-shadow: 0 2px 4px rgba(0,0,0,.5)
+}
+.jumbotron{
+  background: url('https://images.unsplash.com/photo-1486665384220-2f049536378a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80') no-repeat center;
+  height: 500px;
+  background-size: cover;
+  margin: 0;
+}
+.list h2{
+  font-size: 60px;
+  color: white;
+  font-weight:100;
+  font: 'arvo',sans-serif; 
+}
+.midTier {
+  height: 180px;
+  background-color: #36343f;
+  margin-top: 0;
+  text-align: center;
+}
+
+.midTier h3 {
+  margin: 10px;
+  color: white;
+  font-family: 'Arvo', sans-serif;
+  font-size: 28px;
+  padding-top: 50px;
+}
+
+.btn {
+  background: rgba(216, 25, 47, .5);
+  font-family: 'Arvo', sans-serif;
+  color: white;
+  text-shadow: none;
+  border: none;
+  margin-top: 50px;
+  border-radius: 6px;
+  padding: 8px 24px;
+  text-decoration: none;
+}
+.btn :hover{
+  background-color: palevioletred;
+}
+
+.foodGroups {
+  margin-bottom: 75px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.foodHeaders {
+  color: #d8192f;
+  font-size: 21px;
+  margin-top: 40px;
+}
+
+.foods,
+.foodHeaders {
+  text-align: center;
+  font-family: 'Arvo', sans-serif;
+  /* display: inline-block; */
+}
+.foods{
+  margin:10px;
+  border:1px solid green;
+  border-radius:5px;
+  padding : 10px;
+}
+
+.foods:hover{
+   border:1px solid lightgreen;
+}
+.foods p {
+  /* margin-bottom: 5px; */
+  font-size: 14px;
+} 
+
+.footer{
+  background-color: gainsboro;
+}
+.footerActive{
+  color: palevioletred;
+}
